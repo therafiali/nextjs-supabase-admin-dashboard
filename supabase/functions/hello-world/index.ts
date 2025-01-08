@@ -8,6 +8,7 @@ Deno.serve(async (req) => {
   const data = {
     message: `Hello ${name}!`,
   }
+  
 
   return new Response(
     JSON.stringify(data),
